@@ -1,0 +1,37 @@
+.comentarios {
+    display: inline-block;
+    background-color: var(--vermelho-claro);
+    padding: 4em;
+    margin: 96px 112px;
+}
+
+.comentarios__textos-titulo {
+    color: var(--vermelho-escuro);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.comentarios__textos-coment {
+    margin-top: 1em;
+    color: var(--preto);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.perfil {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil__imagem {
+    width: 56px;
+    height: 56px;
+}
+
+.perfil__nome {
+    margin: 16px 0 4px 0;
+    color: var(--preto);
+    font-weight: 500;
+}

@@ -1,0 +1,49 @@
+.principal__sobre {
+  text-align: center;
+}
+
+.principal__titulo {
+  color: var(--vermelho-escuro);
+  margin: 96px 0 24px 0;
+  font-weight: 600;
+}
+
+.principal__tema {
+  font-size: 48px;
+  color: var(--preto);
+  font-weight: 600;
+}
+
+.principal__paragrafo {
+  font-size: 20px;
+  margin: 36px 0 107px 0;
+}
+
+.container__metricas {
+  padding: 0 4em 3.5em;
+}
+
+.metrica-lista {
+  display: flex;
+  justify-content: center;
+}
+
+.metrica-itens {
+  margin: 0 2em 0 0;
+}
+.metrica-itens:last-child {
+  margin: 0;
+}
+
+.metrica-titulo {
+  color: var(--vermelho-escuro);
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.metrica-subtitulo {
+  color: var(--preto);
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0.5em 0;
+}
